@@ -35,7 +35,7 @@
         </plugins>
     </build>
 
-    <distributionManagement>
+    <!--<distributionManagement>
         <repository>
             <id>releases</id>
             <url>file://${project.basedir}/../repo/releases</url>
@@ -44,5 +44,5 @@
             <id>snapshots</id>
             <url>file://${project.basedir}/../repo/snapshots</url>
         </snapshotRepository>
-    </distributionManagement>
+    </distributionManagement>-->
 </project>
