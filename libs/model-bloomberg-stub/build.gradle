@@ -1,16 +1,8 @@
-plugins {
-    id "java"
-    id "java-library"
-    id 'maven-publish'
-}
-
 dependencies {
-    compileOnly "org.projectlombok:lombok:${LOMBOK}"
-    annotationProcessor "org.projectlombok:lombok:${LOMBOK}"
+    compileOnly "org.projectlombok:lombok:1.18.22" // ${LOMBOK}
+    annotationProcessor "org.projectlombok:lombok:1.18.22" // ${LOMBOK}
 }
-
 /*
-
 publishing {
     repositories {
         maven {
