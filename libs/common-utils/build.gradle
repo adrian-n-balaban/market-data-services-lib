@@ -1,0 +1,37 @@
+plugins {
+    id "java"
+    id "java-library"
+    id 'maven-publish'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.apache.kafka:kafka-clients:${KAFKA_CLIENTS}" //3.9.0
+    compileOnly 'org.projectlombok:lombok'
+}
+/*publishing {
+    repositories {
+        maven {
+            name = "myDomainRepository"
+            url = "http://localhost:8080/snapshots"
+            allowInsecureProtocol = true
+            credentials(PasswordCredentials)
+            authentication {
+                basic(BasicAuthentication)
+            }
+        }
+    }
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.fx.market'
+            version = '0.0.1'
+            artifactId = "common-utils"
+            from components.java
+        }
+    }
+}
+
+*/

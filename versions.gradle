@@ -1,0 +1,8 @@
+ext { // Keep alphabetical order
+    GOOGLE_CODE_FINDBUGS_JSR305_VERSION = "3.0.2"
+    GOOGLE_PROTOBUF_JAVA = "3.25.5" // version 4 breaks java compilation
+    MODEL_MAPPER = "3.2.1"
+    KAFKA_CLIENTS = "3.9.0"
+    KAFKA_STREAMS = "3.6.0"
+    LOMBOK = "1.18.22"
+}
